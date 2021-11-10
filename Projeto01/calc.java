@@ -14,7 +14,7 @@ public class calc {
         String opc="S";
 
 
-        while(opc.equals("s") || opc=="S"){
+        while(opc.equals("s") || opc.equals("S")){
         System.out.printf("%nDigite o valor 1: ");
             n1.setValor(scan.nextInt());
 
